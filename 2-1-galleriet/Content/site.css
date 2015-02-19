@@ -1,0 +1,46 @@
+﻿/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+/* Chosen styles
+-----------------------------------------------------------*/
+.chosen img{
+    border: 5px solid green;
+}
+
+/* Icon-ok styles
+-----------------------------------------------------------*/
+.icon-ok {
+    border: solid 1px #90ac13;
+    background: #eef4d3;
+    color: #6b800d;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: middle;
+    min-height: 42px;
+    padding-left: 1em;
+    line-height: 42px;
+    vertical-align: middle;
+    margin-bottom: .5em;
+}
+
+    .icon-ok .close-button {
+        float: right;
+        padding: 3px;
+        line-height: 10px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 1.4em;
+        cursor: pointer;
+    }
+
+        .icon-ok .close-button:hover {
+            background-color: rgba(255, 186, 186, 0.38);
+        }
